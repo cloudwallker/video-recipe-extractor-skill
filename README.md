@@ -49,6 +49,12 @@
 
 ### 1. 安装 Skill
 
+先克隆仓库，并显式保留技能安装目录名：
+
+```bash
+git clone https://github.com/cloudwallker/video-recipe-extractor-skill.git video-recipe-extractor
+```
+
 下载本项目，把整个 `video-recipe-extractor` 文件夹复制到 Codex 的 Skills 目录。以下命令在该文件夹的**上一级目录**运行。
 
 **Windows / PowerShell：**
@@ -250,5 +256,10 @@ python -m unittest discover -s tests -v
 ```
 
 现有34项自动测试覆盖字幕量词保留、滚动字幕去重、取帧时间、有声与无声视频、证据引用、长句换行、文件覆盖保护等行为。番茄炒鸡蛋案例还经过真实帧核对和原图、手机缩略图检查。
+
+
+## 许可证与素材来源
+
+原创代码和技能文档采用 [MIT 许可证](LICENSE)，© 2026 [cloudwallker](https://github.com/cloudwallker)。示例中的视频画面及作者水印归原作者所有，保留[原视频来源](https://www.bilibili.com/video/BV13p411d7oQ/)，不纳入本项目的 MIT 授权。第三方依赖及用户提供的素材仍遵循各自的权利与许可。
 
 <div align="right"><a href="#readme-top">↑ 回到顶部</a></div>

@@ -46,6 +46,12 @@ The recipe text was written and added after reviewing the video. Ingredient quan
 
 ### 1. Install the Skill
 
+Clone the renamed repository while keeping the installed skill directory name:
+
+```bash
+git clone https://github.com/cloudwallker/video-recipe-extractor-skill.git video-recipe-extractor
+```
+
 Download this project and copy the entire `video-recipe-extractor` folder into Codex's Skills directory. Run the following commands from the **parent directory** of that folder.
 
 **Windows / PowerShell:**
@@ -248,5 +254,10 @@ python -m unittest discover -s tests -v
 ```
 
 The 34 automated tests cover preserving subtitle quantities, deduplicating rolling subtitles, frame timing, videos with and without audio, evidence references, long-sentence wrapping, and overwrite protection. The tomato and egg example was also checked against real frames and reviewed at full size and as a phone-size preview.
+
+
+## License and media sources
+
+Original code and skill documentation are released under the [MIT License](LICENSE), © 2026 [cloudwallker](https://github.com/cloudwallker). The example video frame and author watermark belong to their original creator; the [source video](https://www.bilibili.com/video/BV13p411d7oQ/) remains attributed and is not relicensed under MIT. Third-party dependencies and user-provided materials retain their respective rights and licenses.
 
 <div align="right"><a href="#readme-top">↑ Back to top</a></div>
