@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频菜谱长图"
+  short_description: "从做菜视频提取做法，用一张真实主图加逐条文字步骤制作紧凑菜谱长图"
+  default_prompt: "使用 $video-recipe-extractor，把这个做菜视频整理成顶部一张主图、下面逐条步骤的菜谱长图。"
